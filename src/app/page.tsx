@@ -7,16 +7,17 @@ export default function Home() {
     <Flex
       justify="center"
       align="center"
-      height="100vh"
+      height="auto"
       p="36px"
       gap="64px"
       direction={{ initial: "column" }}
       maxWidth="1200px"
+      style={{ minHeight: "100vh" }}
     >
-      <Flex align="center" justify="center" pl={{ initial: "0px" }}>
+      <Flex align="center" justify="center">
         <ProfileComponent />
       </Flex>
-      <Flex gap="24px" align="center" justify="center" wrap="wrap" px="128px">
+      <Flex gap="24px" align="center" justify="center" wrap="wrap">
         <ProjectComponent
           icon="https://getmarketerai.com/favicon.ico"
           title="Marketer AI"
