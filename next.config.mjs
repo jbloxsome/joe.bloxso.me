@@ -4,7 +4,13 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "getmarketerai.com",
+        hostname: "disprse.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "instastock.studio",
         port: "",
         pathname: "/**",
       },
