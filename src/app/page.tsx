@@ -27,25 +27,11 @@ export default function Home() {
           technologies={["Rust", "Arduino Uno"]}
         />
         <ProjectComponent
-          icon="https://disprse.com/favicon.ico"
-          title="Disprse"
-          description="A SaaS product that automatically generates high quality, targeted, and engaging marketing content for any brand."
-          link="https://getmarketerai.com"
-          technologies={["React", "NestJS", "AI"]}
-        />
-        <ProjectComponent
           icon="https://instastock.studio/favicon.ico"
           title="Instastock"
           description="A small web application for generating stock images using AI. The system uses LLMs to enhance the user's prompt and then uses text to image models to generate the image."
           link="https://instastock.studio"
           technologies={["Next.js", "NestJS", "AI"]}
-        />
-        <ProjectComponent
-          icon="https://framerusercontent.com/images/H2v2tj7CBr7ujFq34VDVEKAhUzE.png"
-          title="GoPasswordless"
-          description="A SaaS product and JavaScript library to enable passwordless authentication using WebAuthn for web apps."
-          link="https://gopasswordless.dev"
-          technologies={["React", "NestJS", "WebAuthn"]}
         />
         <ProjectComponent
           icon="https://github.githubassets.com/favicons/favicon.png"
