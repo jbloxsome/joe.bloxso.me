@@ -27,11 +27,11 @@ export default function Home() {
           technologies={["Rust", "Arduino Uno"]}
         />
         <ProjectComponent
-          icon="https://instastock.studio/favicon.ico"
-          title="Instastock"
-          description="A small web application for generating stock images using AI. The system uses LLMs to enhance the user's prompt and then uses text to image models to generate the image."
-          link="https://instastock.studio"
-          technologies={["Next.js", "NestJS", "AI"]}
+          icon="https://github.githubassets.com/favicons/favicon.png"
+          title="Barracuda"
+          description="An autonomous agent dashboard for monitoring AI-driven treasury management. Two agents — Sentinel and Steward — analyse market sentiment and allocate treasury funds on the Mantra blockchain."
+          link="https://barracuda.bloxso.me"
+          technologies={["AI Agents", "Blockchain", "Chart.js"]}
         />
         <ProjectComponent
           icon="https://github.githubassets.com/favicons/favicon.png"
