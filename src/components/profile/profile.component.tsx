@@ -3,7 +3,6 @@ import { TypographyH1 } from "../typography";
 import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import Link from "next/link";
 
@@ -26,9 +25,6 @@ export const ProfileComponent = (): JSX.Element => {
           target="_blank"
         >
           <LinkedInLogoIcon width={36} height={36} />
-        </Link>
-        <Link href="https://x.com/JoeBloxsome" target="_blank">
-          <TwitterLogoIcon width={36} height={36} />
         </Link>
       </Flex>
     </Flex>
